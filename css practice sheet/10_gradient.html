@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" cont  ent="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background: radial-gradient(blue,aqua,red,green);
+    }
+    .main{
+        position: relative;
+        height:600px;
+        width: 100%;
+    }
+    .div1{
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 600px;
+        border: 2px solid black;
+        height: 250px;
+        width: 300px;
+        padding: 20px;
+        display: grid;
+        place-content: center;
+        box-shadow:5px 5px 10px black;
+    }
+    .main .div1 button{
+        height: 30px;
+        width: 100px;
+        margin-left: 160px;
+        background-color: blue;
+        color: white;
+        font-weight: bold; 
+        border-radius: 8px; 
+    }
+    .main .div1 h1{
+        text-align: center;
+    }
+    .main .div1 input{
+        height: 30px;
+        width: 250px;
+        border-radius: 8px;
+    }
+    h1::before{
+            content:"";
+            height: 2px;
+            width: 50px;
+            background-color: blue;
+            display: inline-block;
+            margin-bottom: 6.5px;
+        }
+        h1::after{
+            content:"";
+            height: 2px;
+            width: 50px;
+            background-color: blue;
+            display: inline-block;
+            margin-bottom: 6.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div1">
+        <h1>Login</h1>
+        <input type="text" placeholder="Enter Name"><br><br>
+        <input type="text" placeholder="Enter Password"><br><br>
+        <button>Login</button>
+    </div>
+    </div>
+
+</body>
+</html>

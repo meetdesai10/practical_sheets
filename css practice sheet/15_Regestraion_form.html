@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mainsection{
+            border: 2px solid black;
+            width: 800px;
+            height: 750px;
+            background-color: rgb(65, 240, 65);
+            margin-left: 350px;
+            border-radius: 10px;
+        }
+        .mainsection .form{
+            border: 2px solid black;
+            width: 650px;
+            height: 700px;
+            margin-top: 20px;
+            margin-left: 70px;
+            padding-top: 10px;
+            background-color: white;
+            box-shadow: 3px 4px 2px black;
+            border-radius: 7px;
+        }
+        .row{
+            display: flex;
+            gap: 10px;
+        }
+        .row .col1{
+            height: 30px;
+            width: 200px;
+            text-align: end;
+        }
+        .row .col2{
+            height: 30px;
+            width: 250px;
+        }
+        .row .col2 input{
+            height: 30px;
+            width: 250px;
+            border-radius: 5px;
+        }
+        .mainsection .form .row .addresscol textarea{
+            border-radius: 5px;
+        }
+        .mainsection .form .row .Experiencecol select{
+            border-radius: 5px;
+            height: 30px;
+            width: 250px;
+        }
+        .mainsection .form .checkbox{
+            margin-top: 10px;
+            margin-left: 220px;
+        }
+        .mainsection .form .button button{
+            height: 40px;
+            width: 250px;
+            margin-top: 30px;
+            margin-left: 170px;
+            color:white;
+            background-color: blue;
+        }
+        .mainsection .form h2{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainsection">
+        <div class="form">
+            <h2>Registration For Job</h2>
+            <div class="row">
+                <div class="col1">Frist Name:</div>
+                <div class="col2"><input type="text" placeholder="Enter Frist Name" name="" id=""></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Middle Name:</div>
+                <div class="col2"><input type="text" placeholder="Enter Middle Name" name="" id=""></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Last Name:</div>
+                <div class="col2"><input type="text" placeholder="Last Frist Name" name="" id=""></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Address:</div>
+                <div class="addresscol"><textarea name="" id="" cols="40" rows="6"></textarea></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Date Of Brith:</div>
+                <div class="col2"><input type="date"  name="" id=""></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Gender:</div>
+                <div class="gendercol"><input type="radio" name="radio" id="">male <input type="radio" name="radio" id="">Female</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Experience:</div>
+                <div class="Experiencecol"><select name="" id="">
+                    <option value="">---select---</option>
+                    <option value="">1year</option>
+                    <option value="">2year</option>
+                    <option value="">3 or more</option>
+                </select></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Mobile No:</div>
+                <div class="col2"><input type="text" placeholder="Enter Mobile Number" name="" id=""></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Email:</div>
+                <div class="col2"><input type="text" placeholder="Enter Email Id" name="" id=""></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col1">Create Password:</div>
+                <div class="col2"><input type="text" placeholder="Enter Password" name="" id=""></div>
+            </div>
+            <div class="checkbox"><input type="checkbox" name="" id="">Show Password</div>
+            <div class="button"><button>Register</button></div>
+        </div>
+    </div>
+</body>
+</html>

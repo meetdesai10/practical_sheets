@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body{
+            background-color: skyblue;
+        }
+        .main{
+            position: relative;
+            height: auto;
+            width: auto;
+            display: flex;
+            margin-left: 340px;
+            margin-top: 100px;
+        }
+        .div1{
+            height: 500px;
+            width: 400px;
+            background-color: white;
+            text-align: center;
+
+        }
+        .div2{
+            height: 500px;
+            width: 400px;
+            background-color: blue;
+        }
+         .header{
+            font-size: 25px;
+            padding-top: 70px;
+            text-shadow: 2px 2px 5px black;
+        }
+        .text1{
+            color: grey;
+            padding-top: 10px;
+            font-size: 12px;
+        }
+        .inputdiv1{
+            padding-top: 20px;
+        }
+        .inputdiv2{
+            padding-top: 20px;
+        }
+        .buttondiv1{
+            padding-top: 20px;
+        }
+        .i1{
+            border-radius: 20px;
+            height: 30px;
+            width: 250px;
+            background-color: rgb(201, 228, 239);
+        }
+        .i2{
+            border-radius: 20px;
+            height: 30px;
+            width: 250px;
+            background-color: rgb(201, 228, 239);
+        }
+        .b1{
+            border-radius: 20px;
+            height: 38px;
+            width: 260px;
+            background-color: blue;
+            color: white;
+            font-size: 15px;
+        }
+        .i1::placeholder{
+            padding-left: 10px;
+        }
+        .i2::placeholder{
+            padding-left: 10px;
+        }
+        .text2{
+            padding-top: 40px;
+            color: grey;
+        }
+        .text3{
+            padding-top: 60px;
+            color: grey;
+        }
+        .link{
+            text-decoration: none;
+            color: tomato;
+        }
+        .baloon{
+            height: 100%;
+            margin-left:35px;
+        }
+        .mainheader{
+            position: absolute;
+            top: 60px;
+            left: 610px;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mainheader"><b>Login in Form</b></div>  
+    <div class="main">
+        <div class="div1">
+            <div class="header"><b>Log in</b></div>
+            <p class="text1">To your account</p>
+            <div class="inputdiv1"><input class="i1" placeholder="User Name" type="text" name="" id=""></div>
+            <div class="inputdiv2"><input class="i2" placeholder="Password" type="text" name="" id=""></div>
+            <div class="buttondiv1"><form action=""><button class="b1">Log in</button></form></div>
+            <p class="text2">Or connect with social media</p>
+            <p class="text3">Don't have an account? <a class="link" href="">Register</a></p>
+        </div>
+        <div class="div2">
+            <img class="baloon" src="baloon image.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
